@@ -138,6 +138,7 @@ ul {
 
 .language img {
   max-width: 100%;
+  height: auto;
   margin: auto;
 }
 
@@ -159,6 +160,7 @@ ul {
 
 .home-icons img {
   max-width: 20%;
+  height: auto;
 }
 
 a {
