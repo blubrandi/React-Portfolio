@@ -16,9 +16,9 @@ export default function Home() {
                 <div className="left">
                     <img src={BrandiPic} className="brandi-home" alt="Brandi The iOS Developer Picture"/>
                     <div className="home-icons">
-                        <img src={GithubLogo} alt=""/>
-                        <img src={LinkedInLogo} alt=""/>
-                        <img src={EmailLogo} alt=""/>
+                        <a href="https://github.com/blubrandi" target="new"> <img src={GithubLogo} alt=""/></a>
+                        <a href="https://www.linkedin.com/in/brandi-the-ios-dev/" target="new"> <img src={LinkedInLogo} alt=""/></a>
+                        <a href="mailto:branditheiosdev@gmail.com"><img src={EmailLogo} alt=""/></a>
                     </div>
                 </div>
                 <div className="right">

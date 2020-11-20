@@ -1,17 +1,21 @@
 import React from "react"
-import { Route, Link } from "react-router-dom"
+import { Route, NavLink } from "react-router-dom"
+
+const activeLinkClass = {
+    color: "#be13f2"
+}
 
 export default function Header() {
     return (
        <div className="header">
-           <h1><Link to="/">Brandi The iOS Dev</Link></h1>
+           <h1><NavLink to="/">Brandi The iOS Dev</NavLink></h1>
            <div className="header-links">
             <ul>
-                <li><Link to="/about">About</Link> </li>
-                <li><Link to="/ios">iOS</Link> </li>
-                <li><Link to="/web">Web</Link> </li>
-                {/* <li><Link to="/design">Design</Link> </li> */}
-                <li><Link to="/contact">Contact</Link> </li>
+                <li><NavLink activeStyle={activeLinkClass} to="/about">About</NavLink> </li>
+                <li><NavLink activeStyle={activeLinkClass} to="/ios">iOS</NavLink> </li>
+                <li><NavLink activeStyle={activeLinkClass} to="/web">Web</NavLink> </li>
+                {/* <li><NavLink to="/design">Design</NavLink> </li> */}
+                <li><NavLink activeStyle={activeLinkClass} to="/contact">Contact</NavLink> </li>
             </ul>
            </div>
 

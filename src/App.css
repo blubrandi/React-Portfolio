@@ -127,45 +127,60 @@ ul {
 }
 
 .languages {
+  /* margin: 0 auto; */
   display: flex;
   /* flex-direction: row; */
   justify-content: space-between;
-  padding-bottom: 2rem;
-  width: 94%;
+  /* align-items: baseline; */
+  padding: 2rem;
+  /* height: 100px; */
+  align-items: baseline;
+  /* width: 94%; */
   flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-.language img {
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
 }
 
 .language {
   display: flex;
   flex-direction: column;
-  max-width: 60px;
   align-items: center;
-  padding: 0 2rem;
+  width: 60px;
+  /* height: 60px; */
+  /* padding: 0 2rem; */
+ 
+}
+
+.language img {
+  display: flex;
+  width: 100%;
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+  /* margin: auto; */
 }
 
 .home-icons {
+  /* margin: 0 auto; */
+  /* margin-top: 40px; */
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  /* justify-content: space-between; */
   /* width: 40%; */
-  margin: 0 auto;
-  margin-top: 40px;
+  
 }
 
 .home-icons img {
-  max-width: 20%;
-  align-items: flex-start;
+  width: 30px;
+  height: 30px;
+  padding: 1.2rem;
+  /* align-items: flex-start; */
 }
 
 a {
   color: #6bf20a;
   text-decoration: none;
+}
+
+.activeLink {
+  color: #be13f2;
 }
 
 h2, h3 {
@@ -174,7 +189,7 @@ h2, h3 {
 }
 
 .last {
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 
 /* iOS Project Styles */
@@ -227,7 +242,7 @@ h2, h3 {
 }
 
 .Web-image img {
-  max-width: 600px;
+  max-width: 400px;
 }
 
 .web-text {
@@ -259,4 +274,39 @@ h2, h3 {
 
 .largeText {
   font-size: 8rem;
+}
+
+@media screen and (max-width: 700px) {
+  .language {
+    align-items: center;
+    width: 60%;
+  }
+
+  .languages {
+    align-items: center;
+  }
+
+  .content-row {
+    flex-direction: column;
+  }
+
+  .content-row .right {
+    width: 90%;
+  }
+
+  .iOS-project-container, .Web-project-container {
+    flex-direction: column;
+    width: 98%;
+  }
+
+  .iOS-image, .Web-image {
+    text-align: center;
+  }
+
+  .ios-text, .web-text {
+    margin-top: 2rem;
+    width: 90%;
+    align-items: center;
+    margin-left: 0;
+  }
 }
