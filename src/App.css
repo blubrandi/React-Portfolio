@@ -235,25 +235,29 @@ h2, h3 {
 
 .Web-project-container {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   padding: 2rem;
   margin: 0 auto;
   align-items: center;
+  width: 80%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-left: 1px solid #be13f2;
+  border-right: 1px solid #be13f2;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+
 }
 
 .Web-image img {
-  max-width: 400px;
+  max-width: 100%;
+  
 }
 
 .web-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  border-left: 1px solid #be13f2;
-  border-right: 1px solid #be13f2;
-  border-radius: 10px;
   margin-left: 2rem;
   max-width: 800px;
 }
@@ -274,6 +278,15 @@ h2, h3 {
 
 .largeText {
   font-size: 8rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.site-image {
+  height: 600px;
+  overflow-y: scroll;
 }
 
 @media screen and (max-width: 700px) {

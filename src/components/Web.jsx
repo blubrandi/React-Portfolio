@@ -7,8 +7,9 @@ const webClasses = `content`
 export default function Web() {
     return (
         <div className={webClasses}>
+        <h2>Some of my favorite Web Projects</h2>
+            <p>Images are scrollable to allow viewable of the entire front page.</p>
             <WebProjectList />
-            <p>More Web Projects will be added soon!  In the meantime, please feel free to browse my <a href="https://github.com/blubrandi" target="new"> Github</a> to see more of my Web work!</p>
         </div>
     )
 }
