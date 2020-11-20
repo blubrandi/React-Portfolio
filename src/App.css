@@ -144,7 +144,7 @@ ul {
 .language {
   display: flex;
   flex-direction: column;
-  width: 60px;
+  max-width: 60px;
   align-items: center;
   padding: 0 2rem;
 }
@@ -158,7 +158,7 @@ ul {
 }
 
 .home-icons img {
-  width: 26px;
+  max-width: 26px;
 }
 
 a {
