@@ -31,7 +31,7 @@ export default function About() {
                     Prior to the "Web Explosion", I was an artist, and musician.  I've been a photographer for even longer than I started building websites, and my love of art easily translated to the UI Design aspect of being a web designer.  One of my biggest qualities of being a software developer, is that I have a keen eye for design.  But I'm not only stringent about User Interfaces being "pretty", they have to make sense and be usable.  The design of an interface has to make sense for the ease of the user, or it's pointless.
                 </p>
                 <p>
-                    I've also worked in the Heathcare and Medical fields and find that my work there has helped serve the nurturing side of me.  I am passionate, enthusiastic, and am always looking at the best in others.
+                    I've also worked in the Heathcare and Medical fields and find that my work there has helped serve the nurturing side of me, while being a part of the heath and wellness of others.  I am passionate, enthusiastic, and am always looking at the best in others.
                 </p>
             </div>
             <div>
