@@ -28,10 +28,10 @@ export default function About() {
                     Wanting to level up, I began attending <a href="https://lambdaschool.com" target="new">Lambda School</a> in 2018 and went through both Full-stack Web Development and iOS Development curricula.  After studying my core tracks, I learned Data Structures & Algorithms, and have become fully-endorsed by the school as an employable developer.
                 </p>
                 <p>
-                    Prior to the "Web Explosion", I was an artist, and musician.  I've been a photographer for even longer than I started building websites, and my love of art easily translated to the UI Design aspect of being a web designer.  One of my biggest qualities of being a software developer, is that I have a keen eye for design.  But I'm not only stringent about User Interfaces being "pretty", they have to make sense and be usable.  The design of an interface has to make sense for the ease of the user, or it's pointless.
+                    Prior to the "Web Explosion", I was an artist and musician.  I've been a photographer for even longer than I've been building websites and my love of art easily translated to the UI Design aspect of being a web designer.  One of my biggest qualities of being a software developer is that I have a keen eye for design.  But I'm not only stringent about User Interfaces being "pretty", they have to make sense and be usable.  The design of an interface has to make sense for the ease of the user.
                 </p>
                 <p>
-                    I've also worked in the Heathcare and Medical fields and find that my work there has helped serve the nurturing side of me, while being a part of the heath and wellness of others.  I am passionate, enthusiastic, and am always looking at the best in others.
+                    I've also worked in the Heathcare and Medical fields and find that my work there has helped serve the nurturing side of me, while being a part of the heath and wellness of others.  I am passionate, compassionate, enthusiastic, and am always looking at the best in others.
                 </p>
             </div>
             <div>
