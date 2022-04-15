@@ -7,12 +7,17 @@ import PhotoNoteImg from "../assets/photonote.png"
 import ExperiencesImg from "../assets/IMG_0501.PNG"
 import TIHImg from "../assets/IMG_0503.PNG"
 import SportsBook1 from '../assets/sportsbook/IMG_2312.PNG'
+import SportsBook2 from '../assets/sportsbook/IMG_2313.PNG'
+import SportsBook3 from '../assets/sportsbook/IMG_2314.PNG'
+import SportsBook4 from '../assets/sportsbook/IMG_2315.PNG'
+import SportsBook5 from '../assets/sportsbook/IMG_2316.PNG'
+import SportsBook6 from '../assets/sportsbook/IMG_2317.PNG'
 
 export default function IOSProjectList() {
     
     return  (
         <>
-            <IOSProject imgURL={SportsBook1} projectTitle="Sportsbook App" type="Solo Project, Mobile App Demo" description="This Sportsbook App Demo is built with React Native & Expo." contributions="UX/UI Design, State Management with ReactJS, API calls using Axios." githubUrl="https://github.com/blubrandi/Sportsbook-App-Demo-React-Native-/commits/main" />
+            <IOSProject imgURL={SportsBook2} projectTitle="Sportsbook App" type="Solo Project, Mobile App Demo" description="This Sportsbook App Demo is built with React Native & Expo." contributions="UX/UI Design, State Management with ReactJS, API calls using Axios." githubUrl="https://github.com/blubrandi/Sportsbook-App-Demo-React-Native-/commits/main" />
 
             <IOSProject imgURL={GeoSeekImg} projectTitle="GeoSeek" type="Collaborative, Lambda Labs, Stakeholder" description="GeoSeek aims to be the name for creating engaging experiences through technology while promoting community engagement and physical activity.  GeoSeek allows you to place and find user-created and curated hidden gems within your local community.  Search the map for gems close to you. Travel to the location and see the amazing features of that location!  Know of someplace great? Maybe a breathtaking view at sunset or a part of your town that’s a little less travelled but holds great historical significance! Whatever and wherever the case, create your hidden gem and share it with others!" contributions="UI Design, MapBox Implementation, CoreLocation, User Permisions, UI viastoryboard and Programmatic Constraints, Xibs, Annotations, CoreData and data modeling" githubUrl="https://github.com/Lambda-School-Labs/geoseek-iOS/commits?author=blubrandi" />
 
