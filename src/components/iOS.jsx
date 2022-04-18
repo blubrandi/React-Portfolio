@@ -7,7 +7,7 @@ const iOSClasses = `content`
 export default function iOS() {
     return (
         <div className={iOSClasses}>
-         <h2>Some of my favorite iOS Projects</h2>
+         <h2>Some of my favorite iOS/Mobile Projects</h2>
          <IOSProjectList />
         </div>
     )

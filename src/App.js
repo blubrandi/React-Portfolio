@@ -18,7 +18,7 @@ function App() {
       <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/ios" component={iOS} />
+          <Route path="/mobile" component={iOS} />
           <Route path="/web" component={Web} />
           <Route path="/design" component={Design} />
           <Route path="/contact" component={Contact} />

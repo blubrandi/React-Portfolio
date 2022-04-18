@@ -22,7 +22,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="right">
-                    <h3>I am an 📱 iOS Developer, 👩‍💻 Web Developer, and 🎨 UI Designer with a passion for life, experiences, and all things Disney.</h3>
+                    <h3>I am an 📱 iOS/Mobile Developer, 👩‍💻 Web Developer, and 🎨 UI Designer with a passion for life, experiences, and all things Disney.</h3>
 
                     <p>I'm a proven leader who believes in empowering my team members by enabling them to bring the best version of themselves to any project. I believe in celebrating diverse skillsets and abilities that others contribute, in order to meet and exceed organizational goals.</p>
 
